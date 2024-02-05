@@ -10,19 +10,19 @@ function onOpen() {
   menu.innerText = 'MGT3745';
   menu.addEventListener('click', showFilteredData);
 
-  // ADDING THE MENU TO THE TOOLBAR
+  // ADDING THE MENU TO THE TOOLBAR //
   
   document.getElementById('toolbar').appendChild(menu);
 }
 
-// CALLING THE SPREADSHEET
+// CALLING THE SPREADSHEET //
 
 function showFilteredData() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = spreadsheet.getActiveSheet();
   var data = sheet.getDataRange().getValues();
 
-  // FILTER ROWS BASED ON SELDOM FREQUENCY VALUE
+  /* FILTER ROWS BASED ON SELDOM FREQUENCY VALUE */
   
   var filteredData = data.filter(function(row) {
     return row[1].toString().toLowerCase() !== 'seldom';
