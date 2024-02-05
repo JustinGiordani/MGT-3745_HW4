@@ -5,11 +5,11 @@ description of HW #4 GAS code
 
 This markdown file walks through how I created the GAS code to properly filter out bitcoin addresses that have a "Seldom" frequency based on the provided list.
 
-# Link TO Spreadsheet and Script
+# Link to Spreadsheet and Script
 
 [https://docs.google.com/spreadsheets/d/1WqWfCO-mNJ55nb5OceW_dlybpkbPxuF3tr8Y9sSHBVA/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1WqWfCO-mNJ55nb5OceW_dlybpkbPxuF3tr8Y9sSHBVA/edit?usp=sharing)
 
-# CODE
+# Code
 
  // CREATING A CUSTOM MENU MGT3745 //
 
