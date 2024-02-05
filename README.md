@@ -38,5 +38,6 @@ function showFilteredData() {
     }).join('') + '</table>';
 
   // APPENDING THE SIDEBAR WITH THE FILTERED DATA
+  
   document.body.appendChild(sidebar);
 }
