@@ -11,7 +11,7 @@ This markdown file walks through how I created the GAS code to properly filter o
 
 # Code
 
- // CREATING A CUSTOM MENU MGT3745 //
+```js
 
 function onOpen() {
   
@@ -52,5 +52,6 @@ function showFilteredData() {
   document.body.appendChild(sidebar);
 }
 
+```
 
 # Diagram?
