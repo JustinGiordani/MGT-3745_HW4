@@ -3,7 +3,7 @@
 First, a function is used to create the MGT3745 menu option in the spreadsheet toolbar (this is what will hold the filtered data). Next, the Google spreadsheet is called to iterate through each row and to filter out any bitcoin addresses with the frequency of "Seldom". Based on what filtered data is returned, the next chunk of code creates a sidebar for the filtered data to show. This sidebar is then filled with the filtered data so when the "MGT3745" tab in the toolbar is clicked, it will display all instances without a "Seldom" frequency.
 
 
-
+# Code
 
 
 ```js
@@ -48,3 +48,9 @@ function showFilteredData() {
 }
 
 ```
+
+# Diagram
+
+<img width="433" alt="Screenshot 2024-02-06 at 5 39 37 PM" src="https://github.com/JustinGiordani/MGT-3745_HW4/assets/158983799/ea685200-a11c-49ec-b562-f54c38e9f17a">
+
+
