@@ -20,7 +20,7 @@ function onOpen() {
   menu.innerText = 'MGT3745';
   menu.addEventListener('click', showFilteredData);
 
-  // ADDING THE MENU TO THE TOOLBAR 
+// ADDING THE MENU TO THE TOOLBAR 
   
   document.getElementById('toolbar').appendChild(menu);
 }
