@@ -1,3 +1,11 @@
+# Summary
+
+First, a function is used to create the MGT3745 menu option in the spreadsheet toolbar (this is what will hold the filtered data). Next, the Google spreadsheet is called to iterate through each row and to filter out any bitcoin addresses with the frequency of "Seldom". Based on what filtered data is returned, the next chunk of code creates a sidebar for the filtered data to show. This sidebar is then filled with the filtered data so when the "MGT3745" tab in the toolbar is clicked, it will display all instances without a "Seldom" frequency.
+
+
+
+
+
 ```js
 
 function onOpen() {
